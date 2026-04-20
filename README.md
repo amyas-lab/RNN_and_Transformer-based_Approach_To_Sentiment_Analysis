@@ -58,4 +58,4 @@ To break the 89% performance barrier, the project transitioned to Pre-trained La
     └── imdb_roberta/
 ```
 ## Lessons Learned
-* **This project reinforced that architecture selection is more impactful than hyperparameter tuning. While significant effort was spent optimizing the RNN baseline, the most substantial accuracy gains came from switching to a Self-Attention paradigm. Furthermore, the two-phase fine-tuning strategy proved essential for adapting massive models like RoBERTa to a specific domain without losing their generalized linguistic intelligence.
+* This project reinforced that architecture selection is more impactful than hyperparameter tuning. While significant effort was spent optimizing the RNN baseline, the most substantial accuracy gains came from switching to a Self-Attention paradigm. Furthermore, the two-phase fine-tuning strategy proved essential for adapting massive models like RoBERTa to a specific domain without losing their generalized linguistic intelligence.
